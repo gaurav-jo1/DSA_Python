@@ -8,7 +8,6 @@
 
 # You may assume that all input numbers are nonnegative.
 
-
 class CanSum:
     def __init__(self) -> None:
         self.memo = {}
@@ -39,4 +38,4 @@ can_sum = CanSum()
 # print(can_sum.start(7, numbers=[5, 3, 4, 7]))
 # print(can_sum.start(7, numbers=[2, 4]))
 # print(can_sum.start(8, numbers=[2, 3, 5]))
-print(can_sum.start(300, numbers=[7, 14]))
+# print(can_sum.start(300, numbers=[7, 14]))

@@ -14,8 +14,8 @@ class FibFirst:
         return self.fib_value(num - 1) + self.fib_value(num - 2)
 
 
-# series_1 = FibFirst()
-# print(series_1.fib_value(10))
+series_1 = FibFirst()
+print(series_1.fib_value(10))
 
 
 # Second Method
@@ -42,8 +42,6 @@ class FibSecond:
 
 
 # Third Method (using memoization) [Recommended Method]
-
-
 def fib(n, memo={}):
     if n in memo:
         return memo[n]
